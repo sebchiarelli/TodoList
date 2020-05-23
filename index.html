@@ -3,20 +3,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Todo List</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="Css/TodoList.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     
     
 </head>
 <body>
     <div id="container">
-        <h1>TO-DO LIST</h1>
-        <input type="text">
+        <h1 >TO-DO LIST <span id="plus"><i class="fa fa-plus"></i></span></h1>
+        <input type="text" placeholder="Add new todo">
 
         <ul>
-            <li><span>X </span>do this</li>
-            <li><span>X </span>do that</li>
-            <li><span>X </span>do thisthat</li>
+            <li><span><i class="fa fa-trash"></i></span> manger un lustre</li>
+            <li><span><i class="fa fa-trash"></i></span> diggy diggy hole</li>
+            <li><span><i class="fa fa-trash"></i></span> changer</li>
         </ul>
     </div>
     <script type="text/javascript" src="Js/TodoList.js"></script>
